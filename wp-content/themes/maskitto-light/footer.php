@@ -28,9 +28,6 @@ global $maskitto_light;
 			*
 			*/ $author_website = 'http://shufflehound.com/maskitto-light/'; ?>
 				<div class="copyrights">
-					<span class="thank-you-for-your-support">
-						<a href="<?php echo $author_website; ?>">Maskitto Light</a> <?php _e( 'WordPress Theme by Shufflehound.', 'maskitto-light' ); ?></span>
-					</span>
 					<?php echo preg_replace("#<br\s?/?>#", "", html_entity_decode( esc_attr( $maskitto_light['footer-text'] ))); ?>
 				</div>
 			<?php /*
